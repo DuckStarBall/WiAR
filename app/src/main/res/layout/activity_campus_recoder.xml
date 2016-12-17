@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+   >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="0.5"
+        android:id="@+id/layout"
+    />
+    <!--TextView
+        android:layout_width="181dp"
+        android:layout_height="182dp"
+        android:id="@+id/campus_location_name"
+        android:editable="false"
+
+        android:visibility="invisible"
+        android:layout_gravity="right"
+        android:textStyle="normal"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_text" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/campus_location_name_item3"
+        android:layout_alignTop="@+id/campus_location_name"
+        android:layout_alignRight="@+id/campus_location_name"
+        android:layout_alignEnd="@+id/campus_location_name"
+        android:layout_alignLeft="@+id/campus_location_name"
+        android:layout_alignStart="@+id/campus_location_name"
+        android:visibility="invisible"
+        android:minHeight="20dp"
+        android:textColor="#fafcfb"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/campus_location_open_time"
+        android:layout_below="@+id/campus_location_name_item3"
+        android:layout_alignRight="@+id/campus_location_name"
+        android:layout_alignEnd="@+id/campus_location_name"
+        android:layout_alignLeft="@+id/campus_location_name"
+        android:layout_alignStart="@+id/campus_location_name"
+        android:minHeight="20dp"
+        android:visibility="invisible"
+        android:textColor="#27ae42"
+        android:textSize="17dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/campus_location_more_detail"
+        android:layout_alignRight="@+id/campus_location_name"
+        android:layout_alignEnd="@+id/campus_location_name"
+        android:layout_alignLeft="@+id/campus_location_name"
+        android:layout_alignStart="@+id/campus_location_name"
+        android:layout_alignBottom="@+id/campus_location_name"
+        android:minHeight="20dp"
+        android:visibility="invisible"
+        android:textColor="#f29a9a"
+        android:textSize="17dp"/-->
+
+
+
+</RelativeLayout>
